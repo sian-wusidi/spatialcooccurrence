@@ -11,10 +11,10 @@ The proposed network contains three parts:
 * Discriminator (on the entropy of the prediction map)
 
 ### Explaination of scripts
-* train.py - the script to train the segmentation model + co-occurrence detection model
-* trainGAN.py - the script to train the segmentation model + co-occurrence detection model + discriminator (adversarial training)
-* demo.py - visualize results
-* prediction.py - generate predictions given a map sheet in ".tif" 
+* train.py - to train the segmentation model + co-occurrence detection model
+* trainGAN.py - to train the segmentation model + co-occurrence detection model + discriminator (adversarial training)
+* demo.py - to visualize results
+* prediction.py - to generate predictions given a map sheet in ".tif" 
 
 ### Datasamples
 Training data samples are located in "Datasamples", which can be categorized into "labelled", "unlabelled" and "paired" data. All data is stored as ".npz".
