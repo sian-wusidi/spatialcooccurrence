@@ -7,7 +7,7 @@ This repository contains source code (Keras + tensorflow implementation) for the
 ![image](https://user-images.githubusercontent.com/36080548/219400588-7b61e43c-81d7-40d9-95b8-0567f3d0a8e1.png)
 The proposed network contains three parts:
 * Segmentation model 
-* Co-occurrrence detection model (detect co-occurring objects between source and target and provide weak supervision to the target)
+* Co-occurrence detection model (detect co-occurring objects between source and target and provide weak supervision to the target)
 * Discriminator (on the entropy of the prediction map)
 
 ### Explaination of scripts
