@@ -21,10 +21,11 @@ Training data samples are located in "Datasamples", which can be categorized int
 
 An [old national map sheet](https://www.polybox.ethz.ch/index.php/s/sis7JpXflRBi9jy) of 14000 * 9600 pixels is uploaded in Polybox to generate predictions for the whole map sheet.
 
-Due to copyright issue, not all training/testing data can be publicly provided. Please send request to sidiwu@ethz.ch for further discussion.
+Due to the copyright issue, not all training / testing data can be publicly provided. Please send request to sidiwu@ethz.ch for further discussion.
 
 ### Citation
 If you want to use the scripts, please cite the paper:
+
 @article{WU2023199,
 title = {Domain adaptation in segmenting historical maps: A weakly supervised approach through spatial co-occurrence},
 journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
