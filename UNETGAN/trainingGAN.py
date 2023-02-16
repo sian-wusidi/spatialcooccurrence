@@ -14,7 +14,12 @@ def fit_models(classifier, attention, discriminator, combined, training_generato
     steps_per_epoch_paired = num_paired_images // batch_size
     valid = np.ones((batch_size, 1)) 
     fake =  np.zeros((batch_size, 1)) 
-
+    seg_loss = 0
+    atten_loss = 0
+    combine_loss = 0
+    d_loss_fake = 0
+    d_loss_real = 0
+    
     for e in range(epochs):
         # train segmentation (labelled)
         for i in range(steps_per_epoch_labelled):

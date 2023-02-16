@@ -121,7 +121,7 @@ with open("Datasamples//testingsheets.txt","r") as file:
 for sheet in tqdm(test_validate_sheets):
     file = sheet.split('.')[0]
     target_dir = "prediction//" 
-    base_dir = "testingsheets//"
+    base_dir = "Datasamples//testingsheets//"
     file_raw = file + ".tif"
     input_sheet_location = base_dir + file_raw
     output_sheet_location = target_dir + file + "_predictions.tif"
