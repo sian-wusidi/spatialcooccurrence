@@ -17,7 +17,7 @@ The proposed network contains three parts:
 * prediction.py - to generate predictions given a map sheet 
 
 ### Datasamples
-Training data samples are located in "Datasamples", which can be categorized into "labelled", "unlabelled" and "paired" data. All data is stored as ".npz".
+Training data samples are located in "Datasamples", which are categorized into "labelled", "unlabelled" and "paired". All data is stored as ".npz".
 
 An [old national map sheet](https://www.polybox.ethz.ch/index.php/s/sis7JpXflRBi9jy) of 14000 * 9600 pixels is uploaded in Polybox to generate predictions for the whole map sheet.
 
