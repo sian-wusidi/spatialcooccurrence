@@ -18,7 +18,9 @@ The proposed network contains three parts:
 
 ### Datasamples
 Training data samples are located in "Datasamples", which can be categorized into "labelled", "unlabelled" and "paired" data. All data is stored as ".npz".
+
 An [old national map sheet](https://www.polybox.ethz.ch/index.php/s/sis7JpXflRBi9jy) of 14000 * 9600 pixels is uploaded in Polybox to generate predictions for the whole map sheet.
+
 Due to copyright issue, not all training/testing data can be publicly provided. Please send request to sidiwu@ethz.ch for further discussion.
 
 ### Citation
