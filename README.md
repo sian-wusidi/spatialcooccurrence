@@ -14,7 +14,7 @@ The proposed network contains three parts:
 * train.py - to train the segmentation model + co-occurrence detection model
 * trainGAN.py - to train the segmentation model + co-occurrence detection model + discriminator (adversarial training)
 * demo.py - to visualize results
-* prediction.py - to generate predictions given a map sheet in ".tif" 
+* prediction.py - to generate predictions given a map sheet 
 
 ### Datasamples
 Training data samples are located in "Datasamples", which can be categorized into "labelled", "unlabelled" and "paired" data. All data is stored as ".npz".
