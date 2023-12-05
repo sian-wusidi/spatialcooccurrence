@@ -5,7 +5,3 @@ paired//13_annotation_12_1883.npz,paired//13_sheet_12_1883.npz,paired//13_sheet_
 paired//14_annotation_12_1883.npz,paired//14_sheet_12_1883.npz,paired//14_sheet_1011_1956.npz
 paired//15_annotation_12_1883.npz,paired//15_sheet_12_1883.npz,paired//15_sheet_1011_1956.npz
 paired//16_annotation_12_1883.npz,paired//16_sheet_12_1883.npz,paired//16_sheet_1011_1956.npz
-
-
-
-

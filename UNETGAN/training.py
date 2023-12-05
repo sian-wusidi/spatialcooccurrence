@@ -9,7 +9,6 @@ def fit_models(classifier, attention, training_generator_labelled_unlabelled, tr
     steps_per_epoch_paired = num_paired_images // batch_size
     seg_loss = 0
     atten_loss = 0
-
     for e in range(epochs):
         # train segmentation (labelled)
         for i in range(steps_per_epoch_labelled):

@@ -38,7 +38,7 @@ def set_trainable(model, trainable):
 
 
 def main():
-    batch_size = 16
+    batch_size = 1  # 16 in the paper
     epochs = 50
     classifier, intermediate, discriminator = create_models(n_channels=3, wdecay = 1e-5) 
     attention, combined = build_graph_all(classifier, intermediate, discriminator) 
@@ -57,7 +57,7 @@ def main():
     discriminator.summary()
     combined.summary()
     
-    data_location = "Datasamples" 
+    data_location = "Datasamples/" 
 
     with open(data_location + "/paired_labelled_unlabelled.txt") as file:
         lines = file.readlines()

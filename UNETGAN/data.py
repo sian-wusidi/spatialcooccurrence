@@ -90,9 +90,9 @@ class DataGenerator(keras.utils.Sequence):
         list_IDs_temp = [self.list_IDs[k] for k in indexes]
 
         # Generate data
-        X, y = self.__data_generation(list_IDs_temp)
+        x, y = self.__data_generation(list_IDs_temp)
         # y = self.__data_generation(list_IDs_temp)
-        return X, y
+        return x, y
 
     def on_epoch_end(self):
         'Updates indexes after each epoch'
@@ -107,7 +107,7 @@ class DataGenerator(keras.utils.Sequence):
             for i, ID in enumerate(list_IDs_temp):
                 sheet_ID = ID
                 unlab = np.load(self.data_location + sheet_ID)
-                Unlab.append(x['arr_0'][:, :, 0:3])   
+                Unlab.append(unlab['arr_0'][:, :, 0:3])   
             Unlab = np.asarray(Unlab)
             Anno = None
             return Unlab, Anno
